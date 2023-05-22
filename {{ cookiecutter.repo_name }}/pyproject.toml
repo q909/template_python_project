@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "xxx_project-name"
+version = "0.1.0"
+description = "XXX My python project XXX"
+authors = ["Oleg Valgaev <oleg.valgaev@ait.ac.at>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.5.2"
+notebook = "^6.5.2"
+python-dotenv = "^0.21.1"
+ipykernel = "^6.22.0"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
